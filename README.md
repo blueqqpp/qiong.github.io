@@ -50,7 +50,23 @@ C:\Windows\System32\drivers\etc\hosts
  # GitHub End
 ```
 
+###  在github发布网站
 
+1. 首先， [注册一个GitHub账号，](https://github.com/join) 并确认你的邮箱地址。
+
+2. 接下来，你需要创建一个新的资源库( repository )来存放你的文件。
+
+3. 在这个页面上，在 *Repository name* 输入框里输入 *username*.github.io，username 是你的用户名。比如，我们的朋友 bobsmith 会输入 *bobsmith.github.io。同时勾选* *Initialize this repository with a README* ，然后点击 *Create repository*。
+
+4. 然后，将你的网站文件夹里的内容拖拽到你的资源库( repository )，再点击 
+
+   Commit changes
+
+   **提示**: 确保你的文件夹有一个 *index.html* 文件.
+
+5. 现在将你的浏览器转到 *username*.github.io 来在线查看你的网站。比如，*如果用户名为chrisdavidmills*, 请转到 [chrisdavidmills.github.io](http://chrisdavidmills.github.io/)。
+
+6. 可点击settings，里面会有pages的信息。 Your site is published at https://blueqqpp.github.io/qiong.github.io/ 。
 
 
 
