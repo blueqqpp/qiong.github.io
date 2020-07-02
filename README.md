@@ -19,3 +19,38 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 ![1593678205120](img\图片二.png)
 
 #### 登录Github,找到右上角的图标，打开点进里面的Settings，再选中里面的SSH and GPG KEYS，点击右上角的New SSH key，然后Title里面随便填，再把刚才id_rsa.pub里面的内容复制到Title下面的Key内容框里面，最后点击Add SSH key，这样就完成了SSH Key的加密。
+
+###  当图片不显示时
+
+####  修改hosts
+
+C:\Windows\System32\drivers\etc\hosts
+
+在文件末尾添加：
+
+```
+# GitHub Start 
+192.30.253.112    Build software better, together 
+192.30.253.119    gist.github.com
+151.101.184.133    assets-cdn.github.com
+151.101.184.133    raw.githubusercontent.com
+151.101.184.133    gist.githubusercontent.com
+151.101.184.133    cloud.githubusercontent.com
+151.101.184.133    camo.githubusercontent.com
+151.101.184.133    avatars0.githubusercontent.com
+151.101.184.133    avatars1.githubusercontent.com
+151.101.184.133    avatars2.githubusercontent.com
+151.101.184.133    avatars3.githubusercontent.com
+151.101.184.133    avatars4.githubusercontent.com
+151.101.184.133    avatars5.githubusercontent.com
+151.101.184.133    avatars6.githubusercontent.com
+151.101.184.133    avatars7.githubusercontent.com
+151.101.184.133    avatars8.githubusercontent.com
+
+ # GitHub End
+```
+
+
+
+
+
