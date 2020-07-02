@@ -4,7 +4,7 @@
 
 ###  先克隆到本地，然后以后就在这个里面修改，提交即可。
 
-![1593678061092](https://github.com/blueqqpp/qiong.github.io/blob/master/img/%E5%9B%BE%E7%89%87%E4%B8%80.png)
+![1593678061092](图片一.png)
 
 ###  创建SSH KEY 
 
