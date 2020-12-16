@@ -51,6 +51,7 @@ C:\Windows\System32\drivers\etc\hosts
 ```
 
 ###  在github发布网站
+参考链接 https://segmentfault.com/a/1190000009527796
 
 1. 首先， [注册一个GitHub账号，](https://github.com/join) 并确认你的邮箱地址。
 
