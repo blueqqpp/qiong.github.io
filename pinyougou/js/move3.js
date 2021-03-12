@@ -1,0 +1,3 @@
+//完美运动框架最终版
+//检测运动停止，用一个变量
+function getStyle(obj,name){if(obj.currentStyle){return obj.currentStyle[name]}else{return getComputedStyle(obj,false)[name]}}function move(obj,json,endFn){clearInterval(obj.timer);obj.timer=setInterval(function(){var end=true;for(var attr in json){if(attr=="opacity"){var cur=Math.round(parseFloat(getStyle(obj,attr))*100)}else{var cur=parseInt(getStyle(obj,attr))}var speed=(json[attr]-cur)/4;speed=speed>0?Math.ceil(speed):Math.floor(speed);if(cur!=json[attr]){end=false}if(attr=="opacity"){obj.style.filter="(opacity"+(cur+speed)+")";obj.style[attr]=(cur+speed)/100}obj.style[attr]=cur+speed+"px"}if(end){clearInterval(obj.timer);if(endFn){endFn()}}},30)};
